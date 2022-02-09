@@ -1,0 +1,176 @@
+/* Global styles */
+
+html{
+   font-size: 16px;
+}
+
+@media only screen and (max-width: 768px){
+   html{
+      font-size: 12px;
+   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+   font-family: 'Abril Fatface', cursive;
+   color: #36393A;
+   margin: 1.5%;
+}
+
+h1{
+   font-size: 4rem;
+   font-weight: bold;
+}
+
+h2{
+   font-size: 3rem;
+   font-weight: bold;
+}
+
+h3{
+   font-size: 2rem;
+}
+
+h4{
+   font-size: 1.5rem;
+}
+
+h5{
+   font-size: 1rem;
+}
+
+p,
+li{
+   font-family: 'Poppins', sans-serif;
+   color: #36393A;
+   margin: 1.5%;
+   font-size: 1rem;
+}
+
+body{
+   background-color: #F7F7F8;
+}
+
+/* Header styles*/
+
+
+
+header{
+   text-align: center;
+}
+
+img.logo{
+   border-radius: 100%;
+   display: block;
+   margin: 0 auto;
+   width: 25%;
+   max-width: 332px;
+}
+
+li{
+   display: inline;
+   margin: 3%;
+}
+
+a{
+   text-decoration: none;
+}
+
+a:link{
+   color: #36393A;
+}
+
+a:visited{
+   color: #34045c;
+}
+
+a:hover{
+   color: red;
+}
+
+a:active{
+   font-size: 0.75rem;
+}
+
+/* Wellcome section styles*/
+
+section#wellcome{
+   border: #E9F7F9 solid 2px;
+   background-color: #D0EDF1;
+   margin: 2%;
+   text-align: center;
+   border: #E9F7F9 solid 2px;
+   padding-bottom: 2%;
+}
+
+div.img-container-wellcome{
+   display: grid;
+   grid-template-columns: repeat(3, 30%);
+   gap: 2%;
+   justify-content: center;
+}
+
+img.photo{
+   display: inline;
+   width: 100%;
+}
+
+@media only screen and (max-width: 1024px){
+   div.img-container-wellcome{
+      display: flex;
+      flex-direction: column;
+   }
+
+   img.photo{
+      width: 80%;
+      padding: 1.5%;
+   }
+}
+
+/* Activities section styles */
+
+h2.activities{
+   text-align: center;
+}
+
+div.activities img{
+   width: 40%;
+   border-radius: 50%;
+}
+
+div.activities{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 1.5%;
+}
+
+div.text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+div.tournaments{
+   border: #E9F7F9 solid 2px;
+   background-color: #D0EDF1;
+}
+
+/* Contact section styles */
+
+section#contact{
+   border: #E9F7F9 solid 2px;
+   background-color: #D0EDF1;
+   padding: 1.5%;
+   text-align: center;
+}
+
+/* footer */
+
+footer{
+   text-align: center;
+   padding: 1.5%;
+}
